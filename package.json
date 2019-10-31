@@ -4,9 +4,9 @@
   "description": "teste",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Edu",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
