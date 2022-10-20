@@ -2,12 +2,12 @@ let express = require('express')
 let app = express()
 
 app.get('/',  (req, res) => {
-   console.log("oi 1")
+   console.log("oi 2")
    res.json("Posso te ajudar")
 })
 
 app.get('/:code',  (req, res) => {
-   console.log("code " + JSON.parce(req.params))
+   console.log("code " + JSON.stringify(req.params))
    res.json("Posso")
 })
 
